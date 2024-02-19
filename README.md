@@ -64,6 +64,9 @@ Configure your .env.local file with the obtained credentials:
 MONGODB_URL=mongodb://127.0.0.1 (connection string without db name)
 DB_NAME=auth
 
+# NextAuth Prod
+NEXTAUTH_SECRET=your-custom-secret-for-nextauth
+
 # GitHub OAuth
 GITHUB_ID=your-github-id
 GITHUB_SECRET=your-github-secret
